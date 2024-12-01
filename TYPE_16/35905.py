@@ -13,7 +13,6 @@ def f(n):
         return f(n // 3)
     return n % 3 + f(n - n % 3)
 
-
 for n in range(200):
     if f(n) == 9:
         print(n)
