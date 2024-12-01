@@ -5,8 +5,8 @@ def f(s):
             s = s.replace('222', '11', 1)
     return s
 
-for i in range(61, 1000):
-    s = '1' * i
+for a in range(61, 1000):
+    s = '1' * a
     if f(s) == '221':
-        print(i)
+        print(a)
         break
