@@ -4,7 +4,7 @@
 тождественно истинно при любых целых неотрицательных x и y?
 '''
 
-for A in range(20):
+for A in range(1000000):
     flag = True
     for x in range(31):
         for y in range(21):
@@ -12,3 +12,4 @@ for A in range(20):
                 flag = False
     if flag:
         print(A)
+        break
